@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-image: url('../images/street.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: #f0f4f8;
+}
+
+h2 {
+    color: #1a202c;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+label {
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+
+
+/* Caja del semaforo */
+.traffic-light {
+    padding: 80px;
+    border: 2px solid #cbd5e0;
+    border-radius: 8px;
+    background-color: rgba(43, 108, 176, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.lightR {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #cbd5e0;
+    background-color: #862020;
+    transition: background-color 0.3s;
+}
+
+.lightY {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #cbd5e0;
+    background-color: #894213;
+    transition: background-color 0.3s;
+}
+
+.lightG {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #cbd5e0;
+    background-color: #1b8650;
+    transition: background-color 0.3s;
+}
+
+
+
+/* Caja de controles */
+.controls {
+    padding: 30px 40px;
+    border: 2px solid #cbd5e0;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #2d3748;
+    font-weight: bold;
+    background-color: rgb(190, 202, 212);
+}
+
+.btnA {
+    padding: 10px 40px;
+    background-color: #4299e1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btnA:hover {
+    background-color: #2b6cb0;
+}
+
+.btnR {
+    padding: 10px 40px;
+    background-color: #e53e3e;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btnR:hover {
+    background-color: #c53030;
+}
+
+.btnY {
+    padding: 10px 40px;
+    background-color: #f6ad55;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btnY:hover {
+    background-color: #dd6b20;
+}
+
+.btnG {
+    padding: 10px 40px;
+    background-color: #38a169;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btnG:hover {
+    background-color: #2f855a;
+}
+
+.btnO {
+    padding: 10px 40px;
+    background-color: #3e4552;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btnO:hover {
+    background-color: #20242c;
+}
