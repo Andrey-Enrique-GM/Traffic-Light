@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 40px;
     background-image: url('../images/street.webp');
     background-size: cover;
@@ -14,10 +14,8 @@ body {
     color: #333;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 16px;
     background-color: #f0f4f8;
 }
 
@@ -29,10 +27,6 @@ h2 {
     text-align: center;
 }
 
-label {
-    font-size: 1rem;
-    color: #4a5568;
-}
 
 
 /* Contenedor principal */
@@ -155,9 +149,8 @@ label {
 
 .btnA {
     width: 220px;
-    padding: 12px 0;
-    text-align: center;
     padding: 10px 40px;
+    text-align: center;
     background-color: #4299e1;
     color: #fff;
     border: none;
@@ -173,9 +166,8 @@ label {
 
 .btnR {
     width: 220px;
-    padding: 12px 0;
-    text-align: center;
     padding: 10px 40px;
+    text-align: center;
     background-color: #e53e3e;
     color: #fff;
     border: none;
@@ -191,9 +183,8 @@ label {
 
 .btnY {
     width: 220px;
-    padding: 12px 0;
-    text-align: center;
     padding: 10px 40px;
+    text-align: center;
     background-color: #f6ad55;
     color: #fff;
     border: none;
@@ -209,9 +200,8 @@ label {
 
 .btnG {
     width: 220px;
-    padding: 12px 0;
-    text-align: center;
     padding: 10px 40px;
+    text-align: center;
     background-color: #38a169;
     color: #fff;
     border: none;
@@ -227,9 +217,8 @@ label {
 
 .btnO {
     width: 220px;
-    padding: 12px 0;
-    text-align: center;
     padding: 10px 40px;
+    text-align: center;
     background-color: #3e4552;
     color: #fff;
     border: none;
