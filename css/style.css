@@ -35,6 +35,16 @@ label {
 }
 
 
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between; /* Separa los dos elementos */
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+}
+
+
 
 /* Caja del semaforo */
 .traffic-light {
@@ -82,14 +92,20 @@ label {
 .controls {
     padding: 30px 40px;
     border: 2px solid #cbd5e0;
-    margin-top: 20px;
     font-size: 1.2rem;
     color: #2d3748;
     font-weight: bold;
     background-color: rgb(190, 202, 212);
+    display: flex;
+    flex-direction: column; /* Alinea los elementos uno debajo del otro */
+    gap: 12px;
+    align-items: center;
 }
 
 .btnA {
+    width: 220px;
+    padding: 12px 0;
+    text-align: center;
     padding: 10px 40px;
     background-color: #4299e1;
     color: #fff;
@@ -105,6 +121,9 @@ label {
 }
 
 .btnR {
+    width: 220px;
+    padding: 12px 0;
+    text-align: center;
     padding: 10px 40px;
     background-color: #e53e3e;
     color: #fff;
@@ -120,6 +139,9 @@ label {
 }
 
 .btnY {
+    width: 220px;
+    padding: 12px 0;
+    text-align: center;
     padding: 10px 40px;
     background-color: #f6ad55;
     color: #fff;
@@ -135,6 +157,9 @@ label {
 }
 
 .btnG {
+    width: 220px;
+    padding: 12px 0;
+    text-align: center;
     padding: 10px 40px;
     background-color: #38a169;
     color: #fff;
@@ -150,6 +175,9 @@ label {
 }
 
 .btnO {
+    width: 220px;
+    padding: 12px 0;
+    text-align: center;
     padding: 10px 40px;
     background-color: #3e4552;
     color: #fff;
