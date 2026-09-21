@@ -95,6 +95,45 @@ btnAutomatic.addEventListener("click", function() {
     AutomaticCycle();
 });
 
+// Evento del botón para encender la luz roja
+btnRed.addEventListener("click", function() {
+    if (timer !== null) {
+        clearTimeout(timer);
+    }
+    turnOffAll();
+    redLight.style.backgroundColor = "#ff0000";
+    redLight.style.boxShadow = "0 0 25px #ff0000";
+    currentLight = "red";
+    countRed = countRed + 1;
+    chgRed.textContent = countRed;
+});
+
+// Evento del botón para encender la luz amarilla
+btnYellow.addEventListener("click", function() {
+    if (timer !== null) {
+        clearTimeout(timer);
+    }
+    turnOffAll();
+    yellowLight.style.backgroundColor = "#ffb700";
+    yellowLight.style.boxShadow = "0 0 25px #ffb700";
+    currentLight = "yellow";
+    countYellow = countYellow + 1;
+    chgYellow.textContent = countYellow;
+});
+
+// Evento del botón para encender la luz verde
+btnGreen.addEventListener("click", function() {
+    if (timer !== null) {
+        clearTimeout(timer);
+    }
+    turnOffAll();
+    greenLight.style.backgroundColor = "#00ff66";
+    greenLight.style.boxShadow = "0 0 25px #00ff66";
+    currentLight = "green";
+    countGreen = countGreen + 1;
+    chgGreen.textContent = countGreen;
+});
+
 
 
 // Iniciar siempre apagado
